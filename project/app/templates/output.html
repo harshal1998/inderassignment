@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+
+</head>
+<body bgcolor="#ffad33">
+<h3>Output</h3>
+<table>
+    <tr>
+        <th>{{var1}}</th>
+        <th>{{var2}}</th>
+    </tr>
+    {% for i in data1 %}
+    {% for j in data2 %}
+    <tr>
+        <td>{{i}}</td>
+        <td>{{j}}</td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+</table>
+{{string}}
+</body>
+</html>
